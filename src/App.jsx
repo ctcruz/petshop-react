@@ -70,7 +70,7 @@ function App() {
   }
 
   return (
-    <div className="container mx-auto my-10 flex flex-col justify-center it s-center gap-5">
+    <div className="container mx-auto my-10 flex flex-col justify-center items-center gap-5">
       <h1 className="font-bold">Formulário de Cadastro</h1>
       <form onSubmit={createPet} className="flex flex-col gap-5">
         <div>
